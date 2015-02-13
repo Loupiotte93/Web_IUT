@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+
+body + section {
+	color : red;
+}
+
+body + h1
+{
+	font-weight : 13px;
+}
+
+h2{
+	background-color : silver;
+}
+
+h2 + h3 {
+	Font-variant : small-caps;
+}
+
+strong {
+	color : green;
+	text-decoration: underline;
+}
+
+
