@@ -1,10 +1,27 @@
 h1 {
-    text-align: center;
+    text-align: right;
+    color : red;
+}
+
+h1 +p{
+    text-align: right;
+    color : red;
+	}
+
+section > section > section > p
+ {
+	    text-align: right;
+    color : red;
+}
+section > section + section > p
+ {
+text-align : left;
+color:black;
 }
 
 
-body + section {
-	color : red;
+body {
+
 }
 
 body + h1
@@ -16,8 +33,8 @@ h2{
 	background-color : silver;
 }
 
-h2 + h3 {
-	Font-variant : small-caps;
+h3 {
+	font-variant : small-caps;
 }
 
 strong {
